@@ -1,0 +1,85 @@
+<html>
+    <head>    
+        <meta charset="utf-8"/>
+        <link type ="text/css" rel ="stylesheet" href ="css/icomoon.css"/>        
+        <link type ="text/css" rel ="stylesheet" href ="css/index.css"/>
+        <link type ="text/css" rel ="stylesheet" href ="css/colors.css"/>
+		<link rel="stylesheet" media="screen" href="js/main.css"/>
+    </head>
+
+    <body>
+        <img id="background"/>
+        <img id="background2"/>
+		
+        <img id="cursor"/>
+		
+		<img id="logo"/>
+
+		<div id="content">
+        <h1>[FREE RP] FREEWORLD</h1>
+        <h2>프리월드에 오신것을 환영합니다.<br>프리월드는 새로운 FREE RP 입니다.<br>프리월드는 항상 여러분과 함께합니다.</h2>
+		<a class="Button">프리월드 디스코드 : https://discord.gg/PqehHcz</a>
+		</div>
+
+			<div id="audio">
+				<audio id="leson" src="song.mp3" autoplay="true" hidden="true" loop="true"/>
+				<script>
+					var play = false;
+					var myAudio = document.getElementById("leson");
+					
+					myAudio.volume = 0.4;
+					
+					function onKeyDown(event) {
+						switch (event.keyCode) {
+							case 32: //SpaceBar                    
+								if (play) {
+									myAudio.pause();
+									play = false;
+								} else {
+									myAudio.play();
+									play = true;
+								}
+								break;
+						}
+						return false;
+					}
+					window.addEventListener("keydown", onKeyDown, false);
+				</script>
+			</div>
+		
+		<div class="content-container">
+			<span>
+			<div id="content">
+				<div class="loadbar">
+					<div class="progressBar">
+						<p id="message" class="loading-text">로딩화면 메시지</p>
+						<p class="loading-text2 stick-to-right"><span id="progress-bar-value">0</span>%</p>
+					</div>
+				</div>
+			</div>
+		    </span>
+        </div>
+		
+		<div class="content-container">
+            <progress id="pb0" class="hide" min="0" max="100" value="0"></progress>
+            <progress id="pb1" class="hide" min="0" max="100" value="0"></progress>
+            <progress id="pb2" class="hide" min="0" max="100" value="0"></progress>
+            <progress id="pb3" class="hide" min="0" max="100" value="0"></progress>
+            <progress id="pb4" class="hide" min="0" max="100" value="0"></progress>          
+        </div> 
+
+        <ul id="log"></ul>  
+		
+    </body>
+
+	<script src="js/main.js"></script>
+    <script src="js/synn.js"></script>    
+    <script src="js/config.js"></script>
+    <script src="js/logger.js"></script>    
+    <script src="js/progressbar-main.js"></script>
+    <script src="js/progressbar-handler.js"></script>
+    <script src="js/progressbar-renderer.js"></script>
+    <script src="js/music-controls.js"></script>
+	<script src="js/music-handler.js"></script>
+    <script src="js/background-handler.js"></script>
+</html>
