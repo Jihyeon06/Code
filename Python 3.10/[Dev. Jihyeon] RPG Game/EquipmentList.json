@@ -1,0 +1,124 @@
+{
+    "weapon": {
+        "fist": {
+            "Name": "주먹",
+            "Explanation": "그저 맨 주먹이다.",
+            "Rank": "Normal",
+            "Level_Limit": 1,
+            "BuyMoney": 0,
+            "SellMoney": 0,
+            "Damage": 5,
+            "Defense": 0
+        },
+        "wooden_stick": {
+            "Name": "나무 막대기",
+            "Explanation": "나무를 깍아 만든 막대기이다.",
+            "Rank": "Normal",
+            "Level_Limit": 1,
+            "BuyMoney": 100,
+            "SellMoney": 80,
+            "Damage": 10,
+            "Defense": 0
+        },
+        "wooden_bayonet": {
+            "Name": "나무 대검",
+            "Explanation": "나무를 깍아 만든 대검이다.",
+            "Rank": "Normal",
+            "Level_Limit": 5,
+            "BuyMoney": 300,
+            "SellMoney": 280,
+            "Damage": 20,
+            "Defense": 0
+        }
+    },
+    "armor": {
+        "hat": {
+            "empty_hat": {
+                "Name": "비어있다",
+                "Explanation": "아무것도 없다.",
+                "Rank": "Normal",
+                "Level_Limit": 1,
+                "BuyMoney": 0,
+                "SellMoney": 0,
+                "Damage": 0,
+                "Defense": 5
+            },
+            "leather_hat": {
+                "Name": "가죽 모자",
+                "Explanation": "가죽을 가공해서 만든 모자이다.",
+                "Rank": "Normal",
+                "Level_Limit": 1,
+                "BuyMoney": 100,
+                "SellMoney": 80,
+                "Damage": 0,
+                "Defense": 10
+            }
+        },
+        "top": {
+            "empty_jacket": {
+                "Name": "비어있다",
+                "Explanation": "아무것도 없다.",
+                "Rank": "Normal",
+                "Level_Limit": 1,
+                "BuyMoney": 0,
+                "SellMoney": 0,
+                "Damage": 0,
+                "Defense": 5
+            },
+            "leather_jacket": {
+                "Name": "가죽 재킷",
+                "Explanation": "가죽을 가공해서 만든 재킷이다.",
+                "Rank": "Normal",
+                "Level_Limit": 1,
+                "BuyMoney": 100,
+                "SellMoney": 80,
+                "Damage": 0,
+                "Defense": 20
+            }
+        },
+        "bottom": {
+            "empty_pants": {
+                "Name": "비어있다",
+                "Explanation": "아무것도 없다.",
+                "Rank": "Normal",
+                "Level_Limit": 1,
+                "BuyMoney": 0,
+                "SellMoney": 0,
+                "Damage": 0,
+                "Defense": 5
+            },
+            "leather_pants": {
+                "Name": "가죽 바지",
+                "Explanation": "가죽을 가공해서 만든 바지이다.",
+                "Rank": "Normal",
+                "Level_Limit": 1,
+                "BuyMoney": 100,
+                "SellMoney": 80,
+                "Damage": 0,
+                "Defense": 10
+            }
+        },
+        "shoes": {
+            "empty_shoes": {
+                "Name": "비어있다",
+                "Explanation": "아무것도 없다.",
+                "Rank": "Normal",
+                "Level_Limit": 1,
+                "BuyMoney": 0,
+                "SellMoney": 0,
+                "Damage": 0,
+                "Defense": 5
+            },
+            "leather_shoes": {
+                "Name": "가죽 신발",
+                "Explanation": "가죽을 가공해서 만든 신발이다.",
+                "Rank": "Normal",
+                "Level_Limit": 1,
+                "BuyMoney": 100,
+                "SellMoney": 80,
+                "Damage": 0,
+                "Defense": 10
+            }
+        }
+    }
+}
