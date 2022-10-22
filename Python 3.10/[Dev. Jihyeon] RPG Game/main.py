@@ -9,11 +9,11 @@ import threading
 with open('EquipmentList.json', 'rt', encoding='UTF8') as data_file:
     data = json.load(data_file)
 
-host = "freeeditor.kro.kr"
-port = 3307
-database = "rgdb"
+host = "localhost"
+port = 0000
+database = "dbname"
 username = "root"
-password = "tngh1004"
+password = "pw"
 
 
 
